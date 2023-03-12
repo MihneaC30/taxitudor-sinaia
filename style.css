@@ -6,10 +6,21 @@
   text-transform: capitalize;
 }
 html {
+  height: -webkit-fill-availabe;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+.body{
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  height: -webkit-fill-availabe;
+}
+
 .main-container {
   background: url(D7A458F9-7D3A-40A2-935C-5CEA400A639C.jpeg);
   background-position: center;
